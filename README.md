@@ -95,6 +95,10 @@ The API is deployed on Render and accessible at:
 6. License
 This project is licensed under the MIT License.
 
+7. Demo Video
+Watch the demo video here: [Google Drive Video]((https://drive.google.com/file/d/1xLOh-9KdiM0Uv3uYI_lXrlr_yMr7dojh/view?usp=drive_link))
+
+
 
 
 
