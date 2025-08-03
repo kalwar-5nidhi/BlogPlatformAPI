@@ -54,6 +54,47 @@ BlogPlatformAPI/
 ├── README.md
 ├── package.json
 ├── server.js
-└── Procfile                   # Optional, for deployment (e.g., on Render)
+
+
+## Installation & Setup
+
+1. Clone the repo:  
+   ```bash
+   git clone https://github.com/kalwar-5nidhi/BlogPlatformAPI
+   cd BlogPlatformAPI
+
+2. Install dependencies:
+   ```bash
+   npm install
+
+3. API available at http://localhost:5000
+
+***API Endpoints***
+
+Method	        Endpoint	                 Description
+POST	     /api/auth/register	         Register a new user
+POST	     /api/auth/login	         Login and obtain JWT token
+GET	         /api/blogs	                 List blogs (supports filters, pagination)
+POST	     /api/blogs	                 Create a new blog (authenticated)
+GET	         /api/blogs/:id	             Get blog post by ID
+PUT	         /api/blogs/:id	             Update blog post (authenticated)
+DELETE	     /api/blogs/:id	             Delete blog post (authenticated)
+POST	     /api/blogs/:id/comments	 Add comment to blog post (authenticated)
+GET	         /api/blogs/:id/comments	 Get comments for a blog post
+
+4. Validation & Error Handling
+Validates all input data to ensure integrity
+Returns appropriate HTTP status codes and messages
+Protects sensitive routes with JWT authentication
+
+5. Deployment
+The API is deployed on Render and accessible at:
+https://your-service-name.onrender.com
+
+
+6. License
+This project is licensed under the MIT License.
+
+
 
 
