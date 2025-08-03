@@ -68,7 +68,9 @@ BlogPlatformAPI/
    npm install
 
 3. API available at http://localhost:5000
+
 ***API Endpoints***
+
 Method	        Endpoint	                 Description
 POST	     /api/auth/register	         Register a new user
 POST	     /api/auth/login	         Login and obtain JWT token
@@ -80,18 +82,18 @@ DELETE	     /api/blogs/:id	             Delete blog post (authenticated)
 POST	     /api/blogs/:id/comments	 Add comment to blog post (authenticated)
 GET	         /api/blogs/:id/comments	 Get comments for a blog post
 
-4. Validation & Error Handling
+5. Validation & Error Handling
 Validates all input data to ensure integrity
 Returns appropriate HTTP status codes and messages
 Protects sensitive routes with JWT authentication
 
-5. Deployment
+6. Deployment
 The API is deployed on Render and accessible at:
 [https://your-service-name.onrender.com](https://blogplatformapi-1.onrender.com)
 
-6. License
+7. License
 This project is licensed under the MIT License.
-7. Demo Video
+8. Demo Video
 Watch the demo video here: [Google Drive Video](https://drive.google.com/file/d/1xLOh-9KdiM0Uv3uYI_lXrlr_yMr7dojh/view?usp=drive_link)
 
 
