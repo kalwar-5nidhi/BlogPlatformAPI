@@ -89,7 +89,7 @@ Protects sensitive routes with JWT authentication
 
 5. Deployment
 The API is deployed on Render and accessible at:
-https://your-service-name.onrender.com
+[https://your-service-name.onrender.com](https://blogplatformapi-1.onrender.com)
 
 
 6. License
